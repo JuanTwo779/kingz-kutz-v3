@@ -1,0 +1,8 @@
+.app__partners {
+     display: flex;
+     flex-direction: row;
+ 
+     background: var(--color-black);
+     height: 25vh;
+     
+ }

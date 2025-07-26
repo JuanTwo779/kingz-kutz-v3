@@ -1,42 +1,278 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.section__padding {
+  padding: 6.5rem 6rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.app__hero {
+  background: 
+  linear-gradient( rgb(0,0,0,0), rgb(0,0,0,0.33), rgb(0,0,0,0.66), var(--color-black)),
+              url('./assets/hero3.jpg') 
+              no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 6rem;
+  height: 100vh;
+}
+
+.app__hero-2 {
+  background: url('./assets/HeroImage2.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top 80px;
+  padding-top: 80px;
+  height: 100vh;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  /* filter: brightness(0.8); */
+  
+}
+
+.app__bg {
+  background-color: var(--color-black);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.app__bg_2 {
+  background: url('./assets/black4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.app__bg_3 {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+}
+
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.app__wrapper_info {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.app__wrapper_img {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 2rem; */
+}
+
+.app__wrapper_img-reverse {
+  justify-content: flex-start;
+  margin-right: 2rem;
+}
+
+.app__wrapper_img img,
+.app__wrapper_img iframe{
+  width: 80%;
+}
+
+.app__carousel {
+  width: 90%;
+  margin: auto;
+}
+
+.app_carousel-img{
+  filter: brightness(80%);
+}
+
+.custom__button {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  border: none;
+  transition: background-position 0.4s ease-in-out;
+  background: linear-gradient(135deg, var(--color-secondary) 50%, var(--color-primary) 50%);
+  background-size: 200% 200%;
+  background-position: 100% 0;
+}
+
+.custom__button:hover {
+  background-position: 0 100%; /* Diagonal background shift on hover */
+  color: var(--color-white); /* Keeps white text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.p__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  line-height: 29.9px;
+  font-size: 23px;
+}
+
+.p__opensans {
+  text-decoration: none;
+  font-family: var(--font-alt);
+  color: var(--color-whitesmoke);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.headtext__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-whitesmoke);
+  font-size: 55px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.image__border {
+  border: 5px solid #555;
+}
+
+.subheading__img {
+  width: 55px;
+  margin: auto;
+}
+
+.app__carousel,
+.box__shadow {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
+}
+
+.app_carousel-img {
+  object-fit: cover;
+}
+
+.app__anchor-tag {
+  text-decoration: none;
+  color: var(--color-tertiary);
+  position: relative;
+  display: inline-block;
+  transition: color 0.2s ease-in-out;
+}
+
+.app__anchor-tag:hover {
+  color: var(--color-tertiary);
+  transition: color 0.5s ease;
+}
+
+.app__anchor-tag::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-accent);
+  bottom: -3px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-in-out;
+}
+
+.app__anchor-tag:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.app__anchor-tag:hover {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+
+@media screen and (min-width: 2000px) {
+  .p__cormorant {
+    font-size: 37px;
+    line-height: 67px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .p__opensans {
+    font-size: 24px;
+    line-height: 50px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media screen and (max-width: 1074px) {
+  .app__wrapper {
+    flex-direction: column;
+  }
+
+  .app__wrapper_img {
+    margin: 5rem 0 0 0;
+  }
+
+  .app__wrapper_img-reverse {
+    margin: 0 0 5rem 0;
+  }
+
+  .app__wrapper_img img {
+    width: 100%;
   }
 }
 
-.card {
-  padding: 2em;
+@media screen and (max-width: 850px) {
+  .section__padding {
+    padding: 4rem;
+  }
 }
 
-.read-the-docs {
-  color: #888;
+@media screen and (max-width: 650px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+  
+  .p__cormorant {
+    font-size: 21px;
+  }
+
+  .p__opensans {
+    font-size: 14px;
+  }
+
+  /* .p__opensans-small {
+    font-size: 12px;
+  } */
+}
+
+@media screen and (max-width: 450px) {
+
+  .app__hero {
+    padding: 10rem 2rem 4.5rem 2rem;
+  }
+
+  .p__opensans {
+    font-size: 12px;
+  }
+
+  /* .p__opensans-small {
+    font-size: 10px;
+  } */
+
+  .p__cormorant {
+    font-size: 19px;
+  }
+
+  .headtext__cormorant {
+    font-size: 45px;
+    line-height: 70px;
+  }
 }

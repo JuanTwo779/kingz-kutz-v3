@@ -1,0 +1,63 @@
+.app__booking {
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--color-black) 50%, var(--color-primary) 50%);
+    background-size: 200% 200%;
+    background-position: 100% 0;
+    color: var(--color-white);
+    transition: background-position 0.4s ease-in-out;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
+    width: 80%;
+  }
+  
+.app__booking:hover {
+    background-position: 0 50%;
+}
+  
+.app__booking-heading {
+    text-align: center;
+}
+
+.app__booking-button {
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.app__booking-button img {
+    cursor: pointer;
+    width: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.app__booking-button img:hover {
+    animation: heartbeat 1.2s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    30% { transform: scale(1.2); }
+    40% { transform: scale(1); }
+    60% { transform: scale(1.2); }
+    70% { transform: scale(1); }
+}
+
+@media screen and (max-width: 990px) {
+    .app__booking-button {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__booking {
+        padding: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .app__booking-heading h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}

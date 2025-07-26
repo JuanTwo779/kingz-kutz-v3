@@ -1,0 +1,46 @@
+.app__rules_list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.app__rules_list-card {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 1rem;
+    transition: all 0.3s ease; 
+}
+
+.icon svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    color: var(--color-grey);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary)); 
+    border-radius: 50%; 
+    padding: 5px; 
+    transition: transform 0.3s ease, filter 0.3s ease; 
+}
+
+.app__rules_list-card_content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width: 1900px) {
+    .app__rules_list-card {
+        min-width: 390px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__rules_list-card {
+        min-width: 100%;
+        margin: 1rem 0;
+    }
+}
