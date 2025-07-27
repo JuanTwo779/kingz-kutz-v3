@@ -12,13 +12,10 @@
 }
 
 .app__navbar-logo {
-    /* position: absolute;
-    left: 50%; */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    /* margin: 0 0.5rem; */
     z-index: 2;
     
 }
@@ -56,8 +53,7 @@
 }
 
 .app__navbar-links li {
-    /* width: 75px; */
-    margin: 0 2rem;
+    margin: 0 1.2rem;
     cursor: pointer;
 }
 
@@ -123,9 +119,9 @@ ul.app__navbar-links a:hover::after {
     height: 100vh;
     background: var(--color-black);
     transition: 0.5s ease;
-    display: flex; /* Add flex display to center content */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     flex-direction: column;
     z-index: 5;
 }
@@ -146,9 +142,9 @@ ul.app__navbar-links a:hover::after {
     margin: 0;
     width: 100%;
     display: flex;
-    flex-direction: column; /* Stack links vertically */
+    flex-direction: column;
     justify-content: center;
-    align-items: center; /* Ensure list items are centered */
+    align-items: center; 
 }
 
 .app__navbar-smallscreen_links li {
