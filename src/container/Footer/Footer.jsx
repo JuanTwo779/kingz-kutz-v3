@@ -1,14 +1,10 @@
-import React from 'react';
 import { FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi';
 
-import { FooterOverlay, Booking } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
 
 const Footer = () => (
-  <div className="app__footer section__padding" id='booking'>
-    <FooterOverlay />
-    <Booking />
+  <div className="app__footer section__padding app__bg_2" id='booking'>
 
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
@@ -37,7 +33,6 @@ const Footer = () => (
               window.open('https://au.linkedin.com/in/kelvin-kuek-0100361b4','_blank').focus();
               }} 
           />
-          {/* <FiTwitter /> */}
         </div>
       </div>
 
