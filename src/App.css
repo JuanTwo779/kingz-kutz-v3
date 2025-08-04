@@ -199,6 +199,13 @@
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
 }
 
+.column__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
 
 @media screen and (min-width: 2000px) {
   .p__cormorant {
