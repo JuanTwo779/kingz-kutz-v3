@@ -1,5 +1,5 @@
 import { Navbar} from './components';
-import { Footer } from './container'
+import { Footer, Hero } from './container'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,7 +10,7 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        
+        <Route path='/' element={<Hero/>}/>
       </Routes>
       <Footer />
     </Router>
