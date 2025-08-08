@@ -1,16 +1,24 @@
 .app__menuitem {
     width: 100%;
-    margin: 1rem 0;
+    margin: 0.6rem 0;
 
     display: flex;
     flex-direction: column;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
+     
+}
+
+.app__menuitem-dash {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .app__menuitem p {
     color: var(--color-white); 
     transition: color 0.3s ease, transform 0.3s ease;
     position: relative;
+    /* margin-top: 1px; */
+    margin-bottom: 0.5rem;
 }
 
 .app__menuitem:hover p {
@@ -31,7 +39,7 @@
 
 .app__menuitem-sub {
     width: 100%;
-    margin-top: 0.2rem;
+    /* margin-top: 0.2rem; */
 }
 
 .app__menuitem-name {
