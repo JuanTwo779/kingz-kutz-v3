@@ -1,5 +1,5 @@
 import { Navbar} from './components';
-import { Footer, Hero } from './container'
+import { Footer, Hero, Services } from './container'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,6 +11,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path='/' element={<Hero/>}/>
+
+        <Route path='/services' element={<Services/>} />
       </Routes>
       <Footer />
     </Router>
