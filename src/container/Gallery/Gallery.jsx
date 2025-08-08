@@ -19,7 +19,9 @@ const Gallery = () => {
       
       <div className="app__wrapper_img app__wrapper_img">
           <Carousel className='app__carousel'>
-            {[images.gallery1, images.gallery2, images.gallery3, images.gallery4, images.gallery5, images.gallery6, images.gallery7, images.gallery8, images.gallery9].map((image) => (
+            {[images.gallery1, images.gallery2, images.gallery3, images.gallery4, images.gallery5, 
+            images.gallery6, images.gallery7, images.gallery8, images.gallery9, images.gallery10, 
+            images.gallery11, images.gallery12].map((image) => (
               <Carousel.Item>
                 <img src={image} alt='Men mens fade haircut trim' className='d-block w-100 app_carousel-img' />
               </Carousel.Item>
