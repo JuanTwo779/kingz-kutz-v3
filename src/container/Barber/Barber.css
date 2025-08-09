@@ -18,13 +18,13 @@
 
 .app__barber-sign {
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .app__barber-sign p:first-child {
     font-family: var(--font-cursive);
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 41.6px;
     letter-spacing: 0.04em;
     text-transform: capitalize;
