@@ -1,12 +1,17 @@
 .app__video {
     background-color: var(--color-black);
-    height: auto;
     position: relative;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .app__video video {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
+    max-height: 60vh;
     object-fit: cover;
 }
 
