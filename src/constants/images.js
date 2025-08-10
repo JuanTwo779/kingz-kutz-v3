@@ -44,6 +44,8 @@ import Kelvin2 from '../assets/Kelvin2.jpg'
 import Kelvin3 from '../assets/Kelvin3.jpg'
 import Kelvin4 from '../assets/Kelvin4.jpg'
 
+import thumbnail from '../assets/thumbnail.png'
+
 export default {
   barber,
   barber2,
@@ -89,4 +91,6 @@ export default {
   Kelvin2,
   Kelvin3,
   Kelvin4,
+
+  thumbnail
 };
