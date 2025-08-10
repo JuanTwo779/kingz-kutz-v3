@@ -36,9 +36,25 @@
     margin-top: 3rem;
 }
 
+.barber__padding {
+  padding: 0 4rem 0 1.5rem;
+}
+
 @media screen and (min-width: 2000px) {
     .app__barber-sign img {
         width: 400px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .barber__padding {
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .barber__padding {
+        padding: 4rem 2rem;
     }
 }
 
