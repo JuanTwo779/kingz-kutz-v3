@@ -86,12 +86,16 @@
 }
 
 .app__carousel {
-  width: 70%;
+  max-width: 57%;
+  width: auto;
   margin: auto;
 }
 
-.app_carousel-img{
-  filter: brightness(80%);
+.app__carousel img {
+  max-height: 70vh; 
+  width: auto; 
+  margin: 0 auto; 
+  object-fit: scale-down; 
 }
 
 .custom__button {
@@ -207,6 +211,13 @@
 
 
 @media screen and (min-width: 2000px) {
+
+  .app__carousel {
+    max-width: 600px;
+    width: auto;
+    margin: auto;
+  }
+
   .p__cormorant {
     font-size: 37px;
     line-height: 67px;
