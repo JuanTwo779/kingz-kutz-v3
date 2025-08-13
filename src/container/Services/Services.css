@@ -1,17 +1,15 @@
 .app__services {
     flex-direction: column;
-    background: var(--color-black);
+    /* background: var(--color-black); */
 }
 
 .app__services-title {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .app__services-service {
     width: 100%;
-    margin: 2rem 0;
-
     display: flex;
     justify-content: center;
     align-items: flex-start;
