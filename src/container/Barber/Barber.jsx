@@ -10,8 +10,7 @@ const Barber = () => (
     <div className="app__bg_2 app__wrapper barber__padding" id='barber'>
       
       <div className="barber__wrapper_img app__wrapper_img app__wrapper_img-reverse mt-4">
-        {/* <img src={images.barber} alt='Barber' /> */}
-        <Carousel className='app__carousel'>
+        <Carousel className='barber__carousel'>
           <Carousel.Item>
             <img src={images.Kelvin4} alt='First slide' className='d-block w-100' />
           </Carousel.Item>
