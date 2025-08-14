@@ -51,23 +51,27 @@
     .barber__padding {
         padding: 6.5rem 6rem;
     }
+
+    
 }
 
 @media screen and (max-width: 850px) {
     .barber__padding {
-        padding: 4rem;
+        padding: 6rem;
     }
+
+    
 }
 
 @media screen and (max-width: 650px) {
     .barber__padding {
-        padding: 5rem 2rem;
+        padding-top: 8rem;
     }
 }
 
 @media screen and (max-width: 450px) {
     .barber__padding {
-        padding: 6rem 1rem;
+        padding-top: 8rem;
     }
 
     .app__barber-sign img {

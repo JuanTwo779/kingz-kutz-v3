@@ -245,6 +245,12 @@
   .app__wrapper_img img {
     width: 100%;
   }
+
+  .app__carousel {
+    max-width: none;
+    width: auto;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -265,10 +271,6 @@
   .p__opensans {
     font-size: 14px;
   }
-
-  /* .p__opensans-small {
-    font-size: 12px;
-  } */
 }
 
 @media screen and (max-width: 450px) {
@@ -280,10 +282,6 @@
   .p__opensans {
     font-size: 12px;
   }
-
-  /* .p__opensans-small {
-    font-size: 10px;
-  } */
 
   .p__cormorant {
     font-size: 19px;

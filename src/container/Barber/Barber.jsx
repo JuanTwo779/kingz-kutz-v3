@@ -9,7 +9,7 @@ const Barber = () => (
     
     <div className="app__bg_2 app__wrapper barber__padding" id='barber'>
       
-      <div className="app__wrapper_img app__wrapper_img-reverse">
+      <div className="barber__wrapper_img app__wrapper_img app__wrapper_img-reverse mt-4">
         {/* <img src={images.barber} alt='Barber' /> */}
         <Carousel className='app__carousel'>
           <Carousel.Item>
@@ -24,7 +24,7 @@ const Barber = () => (
         </Carousel>
       </div>
 
-      <div className="app__wrapper_info">
+      <div className="app__wrapper_info mt-2">
         {/* <SubHeading title="" /> */}
         <h1 className="headtext__cormorant">About Me</h1>
 
@@ -47,6 +47,7 @@ const Barber = () => (
           <p>Kelvin Kuek</p>
         </div>
       </div>
+
     </div>
 
     <Intro />
