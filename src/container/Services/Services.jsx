@@ -1,6 +1,7 @@
 import { ServiceItem } from '../../components';
 import { data, images } from '../../constants';
 import Assistant from '../Assistant/Assistant';
+import ServiceInsta from '../Videos/ServiceInsta';
 import './Services.css';
 
 const Services = () => (
@@ -35,6 +36,7 @@ const Services = () => (
       </div>
     </div>
     <Assistant />
+    <ServiceInsta />
   </>
 );
 
