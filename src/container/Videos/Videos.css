@@ -1,0 +1,40 @@
+.app__video {
+    background-color: var(--color-black);
+    position: relative;
+    height: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.app__video video {
+    width: 100%;
+    height: 100%;
+    max-height: 60vh;
+    object-fit: cover;
+}
+
+.app__video-overlay {
+    position: absolute;
+    inset: 0;
+}
+
+.app__video-overlay svg {
+    color: var(--color-white);
+}
+
+
+.app__video-overlay_radius {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+@media (min-width: 1100px) {
+  .app__video video {
+    width: 100%;
+    height: 100%;
+    margin: 2rem;
+  }
+}
