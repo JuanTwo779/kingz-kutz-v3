@@ -20,7 +20,7 @@ const Intro = () => {
   }
 
   return (
-    <div className='app__video section__padding' id='intro'>
+    <div className='app__video' id='intro'>
       <video 
         src={ vid } 
         type="video/mp4"
