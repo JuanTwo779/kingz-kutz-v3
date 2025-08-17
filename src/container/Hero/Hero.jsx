@@ -16,7 +16,7 @@ const Hero = () => (
                </div>
           </div>
           <div>
-               <script src="https://static.elfsight.com/platform/platform.js" async></script>
+               {/* <script src="https://static.elfsight.com/platform/platform.js" async></script> */}
                <Reviews />
           </div>
      </>
