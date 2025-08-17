@@ -4,8 +4,8 @@ const FindUs = () => (
   <div className='app__bg_2 app__wrapper section__padding' id='contact'>
     
   <div className="app__wrapper_info">
-    <SubHeading title='Contact' />
-    <h1 className='headtext__cormorant' style={{ marginBottom: '1rem' }}>Find Us</h1>
+    <SubHeading title='Slide Into Our Chair, Or Our Inbox' />
+    <h1 className='headtext__cormorant' style={{ marginBottom: '1rem' }}>Contact Us</h1>
   
     <div className='app__wrapper-content'>
       <p className='p__opensans'>
@@ -14,9 +14,14 @@ const FindUs = () => (
 
       <div style={{ margin: '2rem 0' }}>
         <p className='p__cormorant' style={{ color: 'var(--color-white)', marginBottom: '1rem' }}>Working Hours</p>
-        <p className='p__opensans' style={{ marginBottom: '5px' }}>Mon-Fri: 9:00 am - 6:00 pm</p>
+        <p className='p__opensans' style={{ marginBottom: '1px' }}>Mon-Fri: 9:00 am - 6:00 pm</p>
         <p className='p__opensans'>Weekends: 10:00 am - 5:00 pm</p>
       </div>
+
+      <div style={{ margin: '2rem 0' }}>
+        <a href="https://www.instagram.com/blurryvision.kk/" target='_blank' rel="noreferrer" type="button" className="custom__button" style={{ textDecoration: 'none' }}>Message us on Instagram</a>
+      </div>
+
     </div>
   </div>
 

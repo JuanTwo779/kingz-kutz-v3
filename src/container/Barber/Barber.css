@@ -79,12 +79,6 @@
     }
 }
 
-@media screen and (max-width: 850px) {
-    .barber__padding {
-        padding: 4rem;
-    }
-}
-
 @media screen and (max-width: 650px) {
     .barber__padding {
         padding-top: 8rem;
@@ -92,10 +86,6 @@
 }
 
 @media screen and (max-width: 450px) {
-    .barber__padding {
-        padding-top: 8rem;
-    }
-
     .app__barber-sign img {
         width: 80%;
     }

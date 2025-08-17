@@ -7,15 +7,15 @@ import Assistant from '../Assistant/Assistant';
 
 const Gallery = () => {
 
-  return (
+  return ( 
     <>
-      <div className="app__bg app__wrapper section__padding" id='photos'>
+      <div className="app__bg_2 app__wrapper section__padding" id='photos'>
 
         <div className="app__wrapper_info">
-          <SubHeading title="Follow us on Instagram" />
+          <SubHeading title="Fresh Fades & Sharp Looks" />
           <h1 className="headtext__cormorant">Photo Gallery</h1>
           <p className="p__opensans" style={{ margin: '0.5rem 0 2rem 0' }}>Explore our gallery of expertly crafted styles. Each cut showcases precision, creativity, and attention to detail, offering inspiration for your next look. Discover the style that best reflects your individuality.</p>
-          <a href="https://www.instagram.com/blurryvision.kk/" target='_blank' rel="noreferrer" type="button" className="custom__button" style={{ textDecoration: 'none' }}>@blurryvision.kk</a>
+          <a href="https://www.instagram.com/blurryvision.kk/" target='_blank' rel="noreferrer" type="button" className="custom__button" style={{ textDecoration: 'none' }}>@Blurryvision.kk</a>
         </div>
         
         <div className="app__wrapper_img app__wrapper_img">
