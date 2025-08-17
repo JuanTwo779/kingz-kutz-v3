@@ -16,6 +16,11 @@ import gallery6 from '../assets/ph6.jpg';
 import gallery7 from '../assets/ph7.jpg'; 
 import gallery8 from '../assets/ph8.jpg';
 import gallery9 from '../assets/ph9.jpg'; 
+
+import gallery10 from '../assets/gallery-25-1.jpg';
+import gallery11 from '../assets/gallery-25-2.jpg';
+import gallery12 from '../assets/gallery-25-3.jpg';
+
 import scissors1 from '../assets/Scissors1.png';
 import scissors2 from '../assets/Scissors2.png';
 import scissors from '../assets/Scissors.png';
@@ -42,6 +47,9 @@ import outdoor2 from '../assets/outdoor2.jpg'
 import HeroImage2 from '../assets/HeroImage2.jpg'
 import Kelvin2 from '../assets/Kelvin2.jpg'
 import Kelvin3 from '../assets/Kelvin3.jpg'
+import Kelvin4 from '../assets/Kelvin4.jpg'
+
+import thumbnail from '../assets/thumbnail.png'
 
 export default {
   barber,
@@ -64,6 +72,9 @@ export default {
   gallery7,
   gallery8,
   gallery9,
+  gallery10,
+  gallery11,
+  gallery12,
 
   scissors1,
   scissors2,
@@ -87,4 +98,7 @@ export default {
   HeroImage2,
   Kelvin2,
   Kelvin3,
+  Kelvin4,
+
+  thumbnail
 };
