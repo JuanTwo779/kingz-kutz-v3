@@ -56,7 +56,7 @@ const Assistant = () => {
         <div className="app__services app__bg d-flex flex__center align-items-center text-center section__padding relative_position" id='assistant'>
             
             <div className="app__overlay">
-                <h2 className="overlay__text">🚧 Coming Soon 🚧</h2>
+                <h2 className="overlay__text">🚧 Updating... 🚧</h2>
                 <p className="overlay__subtext">This feature is under development and will be available soon.</p>
             </div>
 
