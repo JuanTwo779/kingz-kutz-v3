@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: auto;
 }
 
 .app__barber-content_quote {
@@ -18,13 +19,13 @@
 
 .app__barber-sign {
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .app__barber-sign p:first-child {
     font-family: var(--font-cursive);
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 41.6px;
     letter-spacing: 0.04em;
     text-transform: capitalize;
@@ -36,13 +37,65 @@
     margin-top: 3rem;
 }
 
+.barber__padding {
+  padding: 6rem 4rem 2rem 1.5rem;
+}
+
+.barber__carousel {
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
+    max-width: 57%;
+    width: auto;
+    margin: auto;
+}
+
+
+.barber__carousel img {
+  max-height: 70vh; 
+  width: auto; 
+  margin: 0 auto; 
+  object-fit: scale-down; 
+}
+
 @media screen and (min-width: 2000px) {
+    .app__carousel {
+        max-width: 600px;
+        width: auto;
+        margin: auto;
+    }
     .app__barber-sign img {
         width: 400px;
     }
 }
 
+@media screen and (max-width: 1074px) {
+    .barber__padding {
+        padding: 6.5rem 6rem;
+    }
+
+    .barber__carousel {
+        max-width: none;
+        width: auto;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .barber__padding {
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .barber__padding {
+        padding-top: 8rem;
+    }
+}
+
 @media screen and (max-width: 450px) {
+    .barber__padding {
+        padding-top: 8rem;
+    }
+
     .app__barber-sign img {
         width: 80%;
     }

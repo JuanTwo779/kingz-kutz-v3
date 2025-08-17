@@ -5,7 +5,7 @@ import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Barber from './Barber/Barber';
-import Services from './Services/SServices';
+import Services from './Services/Services';
 import Rules from './Rules/Rules';
 
 import Hero from './Hero/Hero';

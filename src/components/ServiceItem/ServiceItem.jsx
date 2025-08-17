@@ -8,7 +8,6 @@ const ServiceItem = ({ title, price, tags }) => (
       <div className="app__menuitem-name">
         <p className="p__cormorant">{title}</p>
       </div>
-      {/* <div className="app__menuitem-dash" /> */}
       <div className="app__menuitem-price">
         <p className="p__cormorant">{price}</p>
       </div>
@@ -17,6 +16,7 @@ const ServiceItem = ({ title, price, tags }) => (
     <div className="app__menuitem-sub">
       <p className="p__opensans" >{tags}</p>
     </div>
+    <div className="app__menuitem-dash" />
   </div>
 );
 
