@@ -1,6 +1,8 @@
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import { Carousel } from 'react-bootstrap';
+import { Link } from "react-router-dom";
+
 import Intro from '../Intro/Intro'
 import './Barber.css';
 
@@ -24,13 +26,13 @@ const Barber = () => (
       </div>
 
       <div className="app__wrapper_info mt-2">
-        {/* <SubHeading title="" /> */}
+        <SubHeading title="Serving Royalty, One Cut at a Time" />
         <h1 className="headtext__cormorant">About Me</h1>
 
         <div className="app__barber-content">
           <div className="app__barber-content_quote">
             <p className="p__opensans"> 
-              Hi, I’m Kelvin, a professional barber based in Glen Waverley, dedicated to delivering precision haircuts and personalised grooming experiences. With a background in civil engineering and training as a massage therapist, I combine technical precision with a relaxing touch to create styles that are sharp, comfortable, and tailored to you.
+              Hi, I’m Kelvin, a professional barber based in Glen Waverley, dedicated to delivering precision cuts. With a background in civil engineering and training as a massage therapist, I combine technical precision with a relaxing touch to create styles that are sharp, comfortable, and tailored to you.
             </p>
           </div>
           <p className="p__opensans"> 
@@ -38,13 +40,13 @@ const Barber = () => (
           </p>
             
           <p className="p__opensans"> 
-          Ready for your next cut? <a href='#booking' className='app__anchor-tag'>Book</a> today and discover the difference.
+          Ready for your next cut? <Link to='/booking' className='app__anchor-tag'>Book</Link> today and discover the difference.
           </p>
         </div>
 
-        <div className="app__barber-sign">
+        {/* <div className="app__barber-sign">
           <p>Kelvin Kuek</p>
-        </div>
+        </div> */}
       </div>
 
     </div>
