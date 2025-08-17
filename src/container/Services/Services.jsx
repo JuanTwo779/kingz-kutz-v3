@@ -35,7 +35,6 @@ const Services = () => (
         </div>
       </div>
     </div>
-    <Assistant />
     <ServiceInsta />
   </>
 );
