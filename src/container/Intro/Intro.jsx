@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
-import { vid } from '../../constants';
+import { images, vid } from '../../constants';
 
 import './Intro.css';
 
@@ -20,13 +20,14 @@ const Intro = () => {
   }
 
   return (
-    <div className='app__video' id='intro'>
+    <div className='app__video section__padding' id='intro'>
       <video 
         src={ vid } 
         type="video/mp4"
         loop
         controls={false}
         ref={vidRef}
+        poster={images.thumbnail}
       />
 
       <div className="app__video-overlay flex__center">

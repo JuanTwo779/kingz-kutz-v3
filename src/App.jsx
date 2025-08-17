@@ -1,5 +1,5 @@
 import { Navbar} from './components';
-import { Footer, Hero, Gallery } from './container'
+import { Footer, Hero, Barber, Gallery } from './container'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,9 +11,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path='/' element={<Hero/>}/>
-
-
         <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/about' element={<Barber/>}/>
       </Routes>
       <Footer />
     </Router>
