@@ -1,7 +1,9 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import axios from 'axios'
 
 import { SubHeading } from '../../components';
+
+import './Assistant.css';
 
 const Assistant = () => {
     
@@ -12,10 +14,10 @@ const Assistant = () => {
         setFile(event.target.files[0])
     }
 
-    const apiUrl = process.env.REACT_APP_ASSISTANT_API_URL
+    // const apiUrl = process.env.REACT_APP_ASSISTANT_API_URL
+    const apiUrl = ""
 
     const submit = async () =>{
-        //send file to backend using axios
         if (!file){
             setMessage("Please select a file first")
             return
@@ -51,7 +53,13 @@ const Assistant = () => {
 
     return (
         
-        <div className="app__sservices d-flex flex__center align-items-center text-center section__padding" id='assistant'>
+        <div className="app__services app__bg d-flex flex__center align-items-center text-center section__padding relative_position" id='assistant'>
+            
+            <div className="app__overlay">
+                <h2 className="overlay__text">🚧 Updating... 🚧</h2>
+                <p className="overlay__subtext">This feature is under development and will be available soon.</p>
+            </div>
+
             <SubHeading title="AI Assistant" />
             <h1 className="headtext__cormorant mb-4">Haircut Classification</h1>
             <p className='p__opensans'>Unsure how to describe your desired haircut? Simply upload a photo, and we’ll identify it for you.</p>
@@ -63,6 +71,7 @@ const Assistant = () => {
                     {message && <p className="p__opensans mt-4">{message}</p>}
                 </div>
             </div>
+        
         </div>
     )
 }
