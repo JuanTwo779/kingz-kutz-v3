@@ -1,6 +1,7 @@
-import { Navbar} from './components';
+import { Navbar } from './components';
 import { Footer, Hero, Barber, Gallery, Services, FindUs } from './container'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
@@ -8,6 +9,7 @@ import './App.css'
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path='/' element={<Hero/>}/>
