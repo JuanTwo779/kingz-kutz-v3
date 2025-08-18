@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 1074px) {
     .barber__padding {
-        padding: 4rem;
+        padding: 8rem 4rem 4rem 4rem;
     }
 
     .barber__carousel {
