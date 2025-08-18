@@ -26,7 +26,7 @@ const Reviews = () => {
         ></div>
       </div> */}
       <div className='sk-ww-google-reviews' data-embed-id='25589257'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' defer></script>
-      <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25589257' frameborder='0' width='1000px' height='500px'></iframe>      
+      <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25589257'  width='100%' height='500px'></iframe>      
     </div>
   )
 }
