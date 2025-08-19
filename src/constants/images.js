@@ -50,6 +50,7 @@ import Kelvin3 from '../assets/Kelvin3.jpg'
 import Kelvin4 from '../assets/Kelvin4.jpg'
 
 import thumbnail from '../assets/thumbnail.png'
+import serviceVidThumb from '../assets/serviceVidThumb.png'
 
 export default {
   barber,
@@ -100,5 +101,6 @@ export default {
   Kelvin3,
   Kelvin4,
 
-  thumbnail
+  thumbnail,
+  serviceVidThumb
 };
