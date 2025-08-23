@@ -34,7 +34,7 @@
 
 .app__services-service_img {
     width: 15em;
-    padding-top: 3rem;
+    padding-top: 5rem;
     margin: 0 3rem;
 }
 
@@ -59,7 +59,7 @@
 
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1074px) {
     .app__services-service {
         flex-direction: column;
         align-items: center;
