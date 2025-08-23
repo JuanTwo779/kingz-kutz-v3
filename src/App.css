@@ -8,28 +8,6 @@
   align-items: center;
 }
 
-.app__hero {
-  background: 
-  linear-gradient( rgb(0,0,0,0), rgb(0,0,0,0.33), rgb(0,0,0,0.66), var(--color-black)),
-              url('./assets/hero3.jpg') 
-              no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 4rem 6rem;
-  height: 100vh;
-}
-
-.app__hero-2 {
-  background: url('./assets/HeroImage2.jpg') no-repeat;
-  background-size: cover;
-  background-position: center top 80px;
-  padding-top: 80px;
-  height: 100vh;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
-  /* filter: brightness(0.8); */
-  
-}
-
 .app__bg {
   background-color: var(--color-black);
   background-position: center;
