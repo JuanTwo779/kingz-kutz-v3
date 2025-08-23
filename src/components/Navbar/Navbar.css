@@ -6,7 +6,7 @@
     align-items: center;
     background: var(--color-black);
     position: fixed;
-    height: 80px;
+    height: 60px;
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 2);
 }
@@ -21,17 +21,17 @@
 }
 
 .nav__desktop-logo {
-    max-width: 80px;
+    max-width: 65px;
     filter: brightness(1.4);
     margin-top: 25px;
 }
 
 .rounded-background {
     position: absolute;
-    top: 79px;
+    top: 59px;
     left: 50%;
     transform: translateX(-50%);
-    width: 120px; 
+    width: 100px; 
     height: 25px; 
     background: var(--color-black);
     border-radius: 0 0 25px 25px; 
@@ -170,7 +170,7 @@ ul.app__navbar-links a:hover::after {
 @media screen and (max-width: 2000px) {
 
     .app__navbar-logo img {
-        width: 200px;
+        width: 160px;
         height: auto;
     }
 
@@ -179,7 +179,7 @@ ul.app__navbar-links a:hover::after {
     }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1070px) {
     .nav__desktop-logo, .rounded-background{
         display: none;
     }
@@ -202,7 +202,7 @@ ul.app__navbar-links a:hover::after {
 
     .app__navbar-logo {
         display: flex;
-        width: 4vw;
+        width: 0.5rem;
     }
 
     .app__navbar-smallscreen {
