@@ -20,7 +20,7 @@ const Intro = () => {
   }
 
   return (
-    <div className='app__video' id='intro'>
+    <div className='intro__video' id='intro'>
       <video 
         src={ vid } 
         type="video/mp4"
@@ -30,9 +30,9 @@ const Intro = () => {
         poster={images.thumbnail}
       />
 
-      <div className="app__video-overlay flex__center">
+      <div className="intro__video-overlay flex__center">
         <div 
-          className='app__video-overlay_radius flex__center'
+          className='intro__video-overlay_radius flex__center'
           onClick={handleVideo}
         >
           {playVideo 
