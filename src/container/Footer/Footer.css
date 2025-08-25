@@ -78,7 +78,7 @@
         line-height: 61px;
     }
 }
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1074px){
     .app__footer-links {
         align-items: center;
         flex-direction: column;
