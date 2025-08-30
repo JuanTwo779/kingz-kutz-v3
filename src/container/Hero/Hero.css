@@ -13,7 +13,7 @@
 .app__hero-2 {
   background: url('/src/assets/HeroImage2.jpg')no-repeat;
   background-size: cover;
-  background-position: center top 60px;
+  background-position: center top 79px;
   padding-top: 80px;
   height: 100vh;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
