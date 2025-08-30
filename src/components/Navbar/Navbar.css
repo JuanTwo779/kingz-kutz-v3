@@ -52,7 +52,7 @@
 }
 
 .app__navbar-links li {
-    margin: 0 2rem;
+    margin: 0 1.75rem;
     cursor: pointer;
     text-align: end;
 }
