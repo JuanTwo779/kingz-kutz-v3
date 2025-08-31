@@ -1,4 +1,5 @@
 import { FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { SiLinktree } from "react-icons/si";
 
 import { images } from '../../constants';
 import './Footer.css';
@@ -18,6 +19,11 @@ const Footer = () => (
         <p className="p__opensans"></p>
         <img src={images.scissors} className='footer__scissor' alt='scissors' />
         <div className="app__footer-links_icons">
+          <SiLinktree 
+            onClick={(e) => { e.preventDefault();
+            window.open('https://linktr.ee/kelvinski?fbclid=PAZXh0bgNhZW0CMTEAAacGvcfiV6EjekMJV5nEPtHgoMHWT5YtL0h_2MrOlUsLJfAtMRfhoNlIdiceCg_aem_aRu7LRREfbK7GisFAyjWKQ').focus();
+            }}
+          />
           <FiFacebook 
             onClick={(e) => { e.preventDefault();
             window.open('https://m.facebook.com/p/Kingz-Kutz-100070774514816/','_blank').focus();
