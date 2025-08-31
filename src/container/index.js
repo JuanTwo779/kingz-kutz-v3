@@ -12,6 +12,7 @@ import Hero from './Hero/Hero';
 import Partners from './Partners/Partners';
 import Assistant from './Assistant/Assistant';
 import Block from './Block/Block';
+import Booking from './Booking/Booking'
 
 export {
   FindUs,
@@ -27,4 +28,5 @@ export {
   Partners,
   Assistant,
   Block,
+  Booking
 };

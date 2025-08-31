@@ -3,6 +3,8 @@ import { Footer, Hero, Barber, Gallery, Services, FindUs } from './container'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
+import {Booking} from './container'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -17,6 +19,7 @@ const App = () => {
         <Route path='/services' element={<Services/>} />
         <Route path='/gallery' element={<Gallery/>}/>
         <Route path='/about' element={<Barber/>}/>
+        <Route path='/booking' element={<Booking/>}/>
       </Routes>
       <Footer />
     </Router>
