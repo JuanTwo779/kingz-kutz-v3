@@ -32,8 +32,8 @@ const Navbar = () => {
 
       <ul className='app__navbar-links items-right'>
         <li><Link to="/gallery" className='p__opensans'>Gallery</Link></li>
-        <li><Link to="/booking" className='p__opensans'>Booking</Link></li>
         <li><Link to="/contact" className='p__opensans'>Contact</Link></li>
+        <li><Link to="/booking" className='p__opensans'>Booking</Link></li>
       </ul>
 
       <div className="app__navbar-smallscreen">
