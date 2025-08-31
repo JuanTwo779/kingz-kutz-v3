@@ -72,6 +72,11 @@
     width: 70px;
 }
 
+.footer__img,
+.footer__scissor {
+    filter: brightness(1.2);
+}
+
 @media screen and (min-width: 2000px){
     .app__footer-headtext {
         font-size: 51px;

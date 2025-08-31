@@ -15,7 +15,7 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.heroLogoKK} alt="footer_logo" />
+        <img className='footer__img' src={images.heroLogoKK} alt="footer_logo" />
         <p className="p__opensans"></p>
         <img src={images.scissors} className='footer__scissor' alt='scissors' />
         <div className="app__footer-links_icons">
