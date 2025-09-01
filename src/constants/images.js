@@ -51,6 +51,7 @@ import Kelvin4 from '../assets/Kelvin4.jpg'
 
 import thumbnail from '../assets/thumbnail.png'
 import serviceVidThumb from '../assets/serviceVidThumb.png'
+import crownWhite from '../assets/crown_white.png'
 
 export default {
   barber,
@@ -102,5 +103,6 @@ export default {
   Kelvin4,
 
   thumbnail,
-  serviceVidThumb
+  serviceVidThumb,
+  crownWhite,
 };

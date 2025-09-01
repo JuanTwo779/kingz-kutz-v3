@@ -61,8 +61,8 @@
      margin-top: 1rem;
  }
 
-.app__hero-img img{
-     max-width: 80px;
+.app__hero-info img{
+     max-width: 100px;
      height: auto;
      width: auto;
 }
